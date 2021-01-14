@@ -1,50 +1,56 @@
+/*background color*/
 body {
     font-family: "Lato", sans-serif;
     background-color: #ed7577;
 }
 
+/*created grey box around login info*/
 .optionOne {
     background-color: #e6e3e3;
     color: gray;
     height: 250px;
     width: 400px;
-    position: absolute;
+    position: relative;
     box-shadow: 1px 1px 10px #888888;
-    margin: 20px;
+    margin: 100px;
 }
 
 h1 {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
-    margin: 20px;
+    padding: 20px;
 }
 
 input {
-    padding: 12px 70px;
+    padding: 12px 150px 12px 10px;
     box-sizing: border-box;
     background-color: #f7f7f7;
     border: none;
 }
 
+/*allows for changing the input placeholder text color*/
 input::placeholder {
     color: #cccccc;
 }
+
+/*changing the size and position*/
 .userName {
+    position: relative;
     width: 300px;
-    margin-left: 10px;
     margin-bottom: 15px;
     display: block;
-    justify-content: center;
+    left: 50px;
 }
 
 .passWord {
+    position: relative;
     width: 300px;
-    margin-left: 10px;
     margin-bottom: 15px;
     display: block;
-    justify-content: center;
+    left: 50px;
 }
 
+/*changing button aspects first size and color .login is for position*/
 button {
     background-color: #7dd9d5;
     position: relative;
@@ -56,16 +62,23 @@ button {
 }
 
 .login {
-    position: static;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
+/*changing wording next to check box .check is changing position*/
 span {
     display: inline;
     font-size: 60%;
-    margin-left: 0;
+    margin-left: -5px;
 }
 
-/* The salmon background for option 2 is #ed7577 and the button is #7dd9d5 */
-
-/* The light blue background is #e3f1f7
-The blue button is #3498db */
+.check {
+    position: absolute;
+    display: inline-block;
+    padding-top: 10%;
+    padding-left: 50px;
+}
