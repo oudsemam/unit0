@@ -1,0 +1,71 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #ed7577;
+}
+
+.optionOne {
+    background-color: #e6e3e3;
+    color: gray;
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    box-shadow: 1px 1px 10px #888888;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    padding: 12px 70px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    border: none;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+.userName {
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    display: block;
+    justify-content: center;
+}
+
+.passWord {
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    display: block;
+    justify-content: center;
+}
+
+button {
+    background-color: #7dd9d5;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 90px;
+}
+
+.login {
+    position: static;
+}
+
+span {
+    display: inline;
+    font-size: 60%;
+    margin-left: 0;
+}
+
+/* The salmon background for option 2 is #ed7577 and the button is #7dd9d5 */
+
+/* The light blue background is #e3f1f7
+The blue button is #3498db */
