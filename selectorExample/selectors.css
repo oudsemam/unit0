@@ -1,0 +1,28 @@
+.shape {
+    height: 150px;
+    margin: 10px;
+}
+
+.box {
+    width: 150px;
+}
+
+.rectangle {
+    width: 300px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.rectangle.red {
+    background-color: lightcoral;
+}
+
+.rectangle.blue {
+    background-color: lightblue;
+}

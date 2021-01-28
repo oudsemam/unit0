@@ -1,0 +1,31 @@
+.parent.blue {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+.parent.red {
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+}
+
+.parent.blue .child {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.parent.blue .child:last-child {
+    background-color: darkblue;
+}
+
+.parent.red .child {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.parent.red .child:last-child {
+    background-color: darkred;
+}
